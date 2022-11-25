@@ -24,8 +24,6 @@ typedef struct student{
     long int mobileNo;
 } stu;
 
-
-
 int main(){
     int n,ans;
     printf("How many students are there:");
@@ -64,9 +62,6 @@ int main(){
      else{
         exit(0);
      }
-        
-    
-     
     for(int i=0; i<n; i++){
         printf("\n\n\n\nName: %s\n",st[i].name);
         printf("Hallticket no.: %s\n",st[i].hallticketno);
@@ -79,9 +74,5 @@ int main(){
          printf("Obtained marks: %.2f",st[i].percentage*100);  
         }
      } 
-
-
-
-
     return 0;
 }
